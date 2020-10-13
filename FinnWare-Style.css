@@ -28,8 +28,9 @@ header {
 	margin-left: auto;
 }
 
-nav {
+nav 
 	order: 1;
+border: 1px red; p.double {outline-style: double;}
 }
 
 .nav__links li:nth-child(1) {
