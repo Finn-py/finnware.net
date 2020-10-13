@@ -107,9 +107,9 @@ body {
 	z-index: -1;
 }
 
-/*.background-2-img {
+.background-2-img { width: 600px; height: 500px;
 	
-}*/
+}
 
 button ul {
 	position: relative;
