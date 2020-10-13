@@ -108,7 +108,8 @@ body {
 }
 
 .background-2-img { width: 600px; height: 500px;
-float:left;	
+float:left;
+background-color: #24252A;	
 }
 
 button ul {
