@@ -1,59 +1,107 @@
 <!DOCTYPE html>
 <html>
-<body>
-<body style="background-color:cyan;">
-<meta charset-"ISO-8859-1">
 
 <head>
-<style>
-table {
-	font-family: arial, sans-serif;
-	border-collapse: collapse;
-	widt: 100%;
-}
+	<title>FinnWare</title>
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" type="text/css" href="FinnWare-Style.css">
+	<style>
 
-td, th  {
-	border: 1px solid red;
-	text-align: left;
-	padding: 40px;
-}
-
-table {
-	background-color: blue;
-	
-}
-</style>
+	</style>
 </head>
 
+<body>
+	<div>
+		<header>
+			<img class="logo" src="" alt="FinnWare">
+			<nav>
+				<ul class="nav__links">
+					<li><a href="#">About</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</nav>
+			<button class="open-modal cta" id="open-modal">Login</button>
+			<!--Open modal-->
+			<div class="modal-login" id="my-modal">
+				<!--Modal-->
+				<div class="modal-login-content">
+					<!--Modal content-->
+					<div class="modal-div">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+						Lorem Ipsum has
+						been
+						the
+						industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+						of</div>
+					<p class="modal-par">Username:</p>
+					<p class="modal-interface"><input type="text"></p>
+					<p class="modal-par">Password:</p>
+					<p class="modal-interface"><input type="password"></p>
+					<p>
+						<button class="#">Submit</button>
+						<button class="close-modal" id="close-modal">Close</button>
+					</p>
+				</div>
+			</div>
+		</header>
+		<div class="filler-bg">
+		</div>
+		<div class="background-1">
+			<div class="background-1-div">
+				<!--Sample image for now-->
+				<img class="background-1-img" src="finnware-bg.jpg">
+			</div>
+			<div class="about">
+				<h1>
+					About
+				</h1>
+				<div class="about-div">
+					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+					been
+					the
+					industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+					of
+					type
+					and scrambled it to make a type specimen book. It has survived not only five centuries, but
+					also
+					the
+					leap into electronic typesetting, remaining essentially unchanged. It was popularised in the
+					1960s
+					with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with
+					desktop
+					publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+				</div>
+				<img class="background-2-img" src="" alt="Very Nice">
+			</div>
+		</div>
+		<div class="service-div">
+			<h1>Services</h1>
+			Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+			industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+			scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
+			electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
+			Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like
+			Aldus PageMaker including versions of Lorem Ipsum.
+		</div>
+		<script>
+			var modalOpen = document.getElementById("open-modal");
+			var modal = document.getElementById("my-modal");
+			var modalClose = document.getElementById("close-modal");
 
-<h1>Ossilandia2</h1>
-<h2>tässä on taulukko</h2>
-<table>
-	<tr>
-		<th>etunimi</th>
-		<th>sukunimi</th>
-		<th>ikä</th>
-	</tr>
-	<tr>
-		<td>Bill</td>
-		<td>Clinton</td>
-		<td>60</td>
-	</tr>
-	<tr>
-		<td>Sauli</td>
-		<td>Niinistö</td>
-		<td>70</td>
-	</tr>
-	<tr>
-		<td>Pertti</td>
-		<td>Molander</td>
-		<td>55</td>
-	</tr>
-	<tr>
-		<td>Lise</td>
-		<td>Bennet</td>
-		<td>23</td>
-	</tr>
-</table>
+			modalOpen.onclick = function () {
+				modal.style.display = "block";
+			}
+
+			modalClose.onclick = function () {
+				modal.style.display = "none";
+			}
+
+			window.onClick = function (event) {
+				if (event.target == modal) {
+					modal.style.display = "none"
+				}
+			}
+		</script>
 </body>
+
 </html>
