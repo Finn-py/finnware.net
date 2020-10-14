@@ -27,6 +27,9 @@ header {
 	cursor: pointer;
 	margin-left: auto;
 }
+#linklogo {
+	order:4;
+}
 
 nav {
 	order: 1;
