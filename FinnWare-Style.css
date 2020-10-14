@@ -27,6 +27,7 @@ header {
 	cursor: pointer;
 	order: 3;
 	margin-left: auto;
+	float: right;
 }
 
 nav {
