@@ -146,7 +146,17 @@ button ul {
 	width: 50%;
 	height: auto;
 }
-
+.contact { 
+	display: inline-block;
+	font-size: 30px;
+	font-family: "Cute Font", cursive, sans-serif;
+	width: 100%;
+	color: #edf0f1;
+	margin: 0px;
+	padding: 0px;
+	color: rgba(148,0,169,0.8);
+	float: left;
+}
 .service-div {
 	width: 50%;
 	height: auto;
