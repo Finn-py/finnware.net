@@ -153,8 +153,11 @@ button ul {
 	float: right;
 	margin-top: 35px;
 	padding: 20px;
-}
 
+}
+.purple { 
+	color: rgba(148,0,169,0.8);
+}
 h1:hover { 
 	/*color: rgb(148, 0, 169); */
 }
