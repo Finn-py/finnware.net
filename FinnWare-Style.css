@@ -29,9 +29,9 @@ header {
 	margin-left: auto;
 }
 
-nav 
+nav {
 	order: 1;
-border: 1px red; p.double {outline-style: double;}
+border: 1px red; outline-style: double;
 }
 
 .nav__links li:nth-child(1) {
@@ -67,6 +67,15 @@ button {
 	border-radius: 50px;
 	cursor: pointer;
 	transition: all 0.3s ease 0s;
+}
+
+
+.contacts
+{
+width: 50%;
+height: auto;
+float: left;
+
 }
 
 button:hover {
