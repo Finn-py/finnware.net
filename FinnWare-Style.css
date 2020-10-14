@@ -139,12 +139,12 @@ button ul {
 	color: #edf0f1;
 	margin: 0px;
 	padding: 20px;
-	background-color: rgba(148,0,169,0.8)
 }
 
 .about-div {
 	width: 50%;
 	height: auto;
+	background-color: rgba(148,0,169,0.8)
 }
 
 .service-div {
