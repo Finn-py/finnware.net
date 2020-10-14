@@ -27,7 +27,6 @@ header {
 	cursor: pointer;
 	order: 3;
 	margin-left: auto;
-	float: right;
 }
 
 nav {
@@ -71,11 +70,15 @@ button {
 }
 
 
-.contacts {
-width: 50%;
-height: auto;
-float: left;
-
+.contacts-div {
+	display: inline-block;
+	font-size: 30px;
+	font-family: "Cute Font", cursive, sans-serif;
+	width: 100%;
+	color: #edf0f1;
+	margin: 0px;
+	padding: 20px;
+	float: center;
 }
 
 button:hover {
