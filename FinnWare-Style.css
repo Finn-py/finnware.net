@@ -29,6 +29,7 @@ header {
 }
 #linklogo {
 	order:4;
+	float: right;
 }
 
 nav {
