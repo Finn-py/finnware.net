@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>FinnWare</title>
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" type="text/css" href="FinnWare-Style.css">
+	<style>
+
+	</style>
+</head>
+
+<body>
+	<div>
+		<header>
+			<a href="index.html" id="linklogo"> <img class="logo" src="images/finnwarelogo.png"  alt="FinnWare" > </a>
+			<nav>
+				<ul class="nav__links">
+					<li><a href="#">About</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+			<button class="open-modal cta" id="open-modal">Login</button>
+			<!--Open modal-->
+			<div class="modal-login" id="my-modal">
+				<!--Modal-->
+				<div class="modal-login-content">
+					<!--Modal content-->
+					<div class="modal-div">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+						Lorem Ipsum has
+						been
+						the
+						industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+						of</div>
+					<p class="modal-par">Username:</p>
+					<p class="modal-interface"><input type="text"></p>
+					<p class="modal-par">Password:</p>
+					<p class="modal-interface"><input type="password"></p>
+					<p>
+						<button class="#">Submit</button>
+						<button class="close-modal" id="close-modal">Close</button>
+					</p>
+				</div>
+			</div>
+		</header>
+		<div class="filler-bg">
+		</div>
+		<div class="background-1">
+			</div>
+			<div class="about">
+				<h1 class="purple">
+					Contact
+				</h1>
+				<div class="contact">
+					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+					been
+					the
+					industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+					of
+					type
+					and scrambled it to make a type specimen book. It has survived not only five centuries, but
+					also
+					the
+					leap into electronic typesetting, remaining essentially unchanged. It was popularised in the
+					1960s
+					with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with
+					desktop
+					publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+				</div>
+		
+		</div>
+		<script>
+			var modalOpen = document.getElementById("open-modal");
+			var modal = document.getElementById("my-modal");
+			var modalClose = document.getElementById("close-modal");
+
+			modalOpen.onclick = function () {
+				modal.style.display = "block";
+			}
+
+			modalClose.onclick = function () {
+				modal.style.display = "none";
+			}
+
+			window.onClick = function (event) {
+				if (event.target == modal) {
+					modal.style.display = "none"
+				}
+			}
+		</script>
+</body>
+
+</html>
+		
