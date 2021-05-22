@@ -23,12 +23,12 @@ header {
 }
 
 .logo {
-	width: 100px; height: 100px;
+	width: 700px; height: 65px;
 	cursor: pointer;
 	margin-left: auto;
 }
 #linklogo {
-	order: 10;
+	order: 11;
 	float: right;
 }
 
