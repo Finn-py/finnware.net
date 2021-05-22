@@ -179,7 +179,7 @@ h1:hover {
 
 .modal-login {
 	display: none;
-	position: fixed;
+	position: left;
 	z-index: 1;
 	left: 0;
 	top: 0;
