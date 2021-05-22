@@ -23,9 +23,9 @@ header {
 }
 
 .logo {
-	width: 700px; height: 65px;
+	width: 70px; height: 65px;
 	cursor: pointer;
-	margin-left: auto;
+	margin-left: 50%;
 }
 #linklogo {
 	order: 11;
