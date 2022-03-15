@@ -1,1 +1,0 @@
-document.getElementById("newId").innerHTML = "Hello Wrorld!";
